@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>10512231鄭俞欣</title>
+
+	<style>
+	body{
+		background-image:url("image/bg3.png");
+		padding:0px 90px 90px 90px;
+	}
+	hr.a{
+		width: 90%;
+		height: 4px;
+		border: none;
+		background-color: #FF8800;
+	}
+	hr.b{
+		width: 90%;
+	}
+	div.one{	
+		width:100%;
+		color: 	#88AA00;
+		font-size: 35px;
+		font-family:fantasy;
+		letter-spacing:5px;
+		font-weight: bold;
+	}
+	#one{
+		
+		background-color: rgba(255, 255, 187, 0.9) ;
+		width:100%;	
+		height:300px;	
+	}
+	#three{
+		width:63%;
+		padding : 50px;
+		
+		background-color:rgba(255, 255, 187, 0.9);
+		float:left;
+	}
+	#four{
+		width:24%;
+		float:right;
+		padding : 50px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family:Microsoft JhengHei;
+		background-color:#FFFFBB; 
+		background-color:rgba(255, 255, 187, 0.9);
+	}
+	span{
+		font-size: 20px;
+		font-weight: bold;
+		font-family:Microsoft JhengHei;
+	}
+	p.a{
+		font-size: 50px;
+		font-weight: bold;
+		font-family:fantasy;
+		color: pink;
+		margin-top: 30px;
+	}
+	p.b{
+		font-size: 18px;
+		font-weight: bold;
+		font-family:Microsoft JhengHei;
+	}
+	ul.b{
+		font-size: 18px;
+		font-weight: bold;
+		font-family:Microsoft JhengHei;
+	}
+	.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+	</style>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<body>
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+	<script>
+	$(function(){
+		$('#BackTop').click(function(){ 
+			$('html,body').animate({scrollTop:0}, 333);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300 ){
+				$('#BackTop').fadeIn(222);
+			} else {
+				$('#BackTop').stop().fadeOut(222);
+			}
+		}).scroll();
+	});
+	</script>
+<div id="one">
+	<div class="one">
+
+		<img src="image\logo.jpg" height="237" width="280" style="border-radius: 200px; float:left;margin:30px">		
+		<center><p style="font-size:90px">Cheng Yu Hsin</p></center>
+    <nav>
+		   <a href="#a">About</a> | 
+		   <a href="#b">Education</a> | 
+		   <a href="#c">Interest</a> | 
+		   <a href="#d">Expectation</a> | 
+		   <a href="#e">Photo</a> |    
+		   <a href="#f">Contact</a> | 
+    </nav>
+    </div>
+    
+</div>	
+
+<hr class="a">
+
+<div id="three">
+	<div>
+		<div>
+			<img src="image/about.jpg" height="300" width="240" style="float:left;margin-right: 90px;margin-top: 30px;margin-bottom: 30px">
+			<p><br></p>
+			<a name="a" style="font-size: 50px;font-weight: bold;font-family:fantasy;color: pink;margin-top: 30px;">About me</a>
+			<p class="b">
+			大家好，我叫鄭俞欣，中原大學資管系三年級。<br>
+			個性活潑開朗，最大的優勢就是臉上的笑容。<br>
+			對於生活，總是有很多的小聰明，懂得有技巧的去做任何事情。<br>
+			熱愛運動、唱歌，在暑假時也要去綠島打工換宿，盡情的享受生活。<br><br>
+			</p>
+		</div>
+		<hr class="b">
+		<div>
+			<img src="image/edu.jpg" height="300" width="240" style="float:left;margin-right: 90px;margin-top: 0px;margin-bottom: 30px">
+			<a name="b" style="font-size: 50px;font-weight: bold;font-family:fantasy;color: pink;margin-top: 30px;">Education</a>
+			<p class="b">
+			新竹縣立中正國小 <br>
+			新竹縣立仁愛國中 <br>
+			國立高級竹南中學 <br>
+			中原大學物理學系 <br>
+			中原大學資訊管理學系 <br>
+			</p>
+		</div>
+		<hr class="b">
+		<div>
+			<div>
+				<img src="image/ins.jpg" height="300" width="240" style="float:left;margin-right: 90px;margin-top: 20px;margin-bottom: 30px">
+			</div>
+			<div style="float:left;">
+				<a name="c" style="font-size: 50px;font-weight: bold;font-family:fantasy;color: pink;margin-top: 30px;">Interest</a>
+			<p class="b">
+			在我的生命中，不能沒有排球。 <br>
+			排球幾乎占滿了我的大學生活， <br>
+			中資盃，亞軍！！！ <br> <br>
+			當然，還有我最愛的物理女排，<br>
+			在我還是大學蔡逼巴的時候照顧我，<br>
+			陪伴我成長最多的就是你們 ❤<br>
+			</p>
+			</div>
+			<div style="float:left;">
+				 <img src="image/ins2.jpg" height="300" width="375" style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			</div>	
+			<div style="clear:both;"></div>			
+		</div>
+		<hr class="b">	
+		<div>
+			<div>
+				<img src="image/exp1.jpg" height="300" width="240" style="float:left;margin-right: 90px;margin-top: 20px;margin-bottom: 30px">
+			</div>
+			<div style="float:left;">
+				<a name="d" style="font-size: 50px;font-weight: bold;font-family:fantasy;color: pink;margin-top: 30px;">Expectation</a>
+			<p class="b">
+			從小在蘭花園長大，做過各式各樣的事情，<br>
+			經的起考驗，也能流暢的與客人暢談。<br>
+			在中原大學校友處工讀。<br>
+			暑假也即將去綠島打工換宿，不只體驗海島生活，<br>
+			也能累積打工經驗，雖然回來可能跟木炭一樣黑，<br>
+			但我還是會盡情的去享受不一樣的生活！<br>
+			</p>
+			</div>
+			<div style="float:left;">
+				 <img src="image/exp2.jpg" height="300" width="240" style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			</div>	
+			<div style="clear:both;"></div>			
+		</div>
+			<hr class="b">
+		<div>
+			<a name="e" style="font-size: 50px;font-weight: bold;font-family:fantasy;color: blue;">Photo</a><br>
+			<img src="image/1.jpg" height="300"  style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			<img src="image/2.jpg" height="300"  style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			<img src="image/3.jpg" height="300"  style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			<img src="image/5.jpg" height="300"  style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			<img src="image/4.jpg" height="300"  style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+			<img src="image/6.jpg" height="300"  style="margin-right: 30px;margin-top: 20px;margin-bottom: 30px;margin-left:52px ">
+		</div>
+	</div>	
+	<div>
+	<p>
+		<center>
+	Copyright © 2019 YuHsin</center>
+	</p>
+	</div>
+</div>
+
+
+<div id="four">
+		  <a name="f" style="font-size: 50px;font-weight: bold;font-family:fantasy;color: pink;margin-top: 30px;">Contact</a>
+    <div >
+	   <div>
+	       <img src="image\phone.png" height="100px" title="Phone"><span>   0988307973</span>
+        </div> 
+        <br>
+
+        <div>
+           <img src="image\add.png" height="100px" title="Address" ><span>   新竹縣竹北市</span>
+        </div>
+        <br>
+        <div>
+           <a href="https://www.facebook.com/profile.php?id=100000189661950"><img src="image\fb.png" height="100px" title="Facebook" >鄭俞欣</a>
+        </div>
+        <br>
+         <div>
+           <a href="https://www.instagram.com/cces4522/"><img src="image\ig.png" height="100px" title="Instagram" >Instagram</a>	
+        </div>
+        <br>
+        <div>
+        <a href="mailto:zhenchyuan97@gmail.com"><img src="image\mail.png" height="100px" title="Email">Mail to Me</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
